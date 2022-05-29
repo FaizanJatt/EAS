@@ -11,7 +11,7 @@ function addDiv(numberOfDivs){
         container.appendChild(box);
     }
     let gridCells = document.querySelectorAll('.item');
-    gridCells.forEach(cell => cell.addEventListener('pointerenter', changeColor));
+    gridCells.forEach(cell => cell.addEventListener('pointermove', changeColor));
 }
 
 function changeC(){
